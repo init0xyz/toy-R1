@@ -46,7 +46,7 @@ ray job submit --address="http://127.0.0.1:8265" \
    --save_hf_ckpt \
    --vllm_sync_backend nccl \
    --ckpt_path /data1/laiyilong/OpenRLHF/ckpt/checkpoints_rlhf_qwen1.5b \
-   --use_wandb 536b109ff938115e7b8d2f906170632579ef3a2d \
+   --use_wandb WANDB_TOKEN \
    --wandb_project toys_r1 \
    --wandb_run_name qwen2.5-1.5b-countdown-reinforce-v3 \
 
